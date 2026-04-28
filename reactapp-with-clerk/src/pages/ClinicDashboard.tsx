@@ -84,7 +84,7 @@ export default function ClinicDashboard() {
 
               {/* RBAC Card: Admin Access Only via v6 <Show> */}
               <Show
-                when={{ permission: "org:billing:manage" }}
+                when={{ permission: "org:sys_billing:manage" }}
                 fallback={
                   <div className="p-6 bg-slate-100 border border-slate-200 border-dashed rounded-xl flex flex-col justify-center items-center text-center opacity-70">
                     <svg
